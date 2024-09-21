@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jkim906.github.io/BrainSomething",
+  "homepage": "https://softeng310-g5.github.io/BrainSomething",
   "scripts": {
     "predeploy": "npm run build --prefix frontend",
     "deploy": "gh-pages -d frontend/build",
