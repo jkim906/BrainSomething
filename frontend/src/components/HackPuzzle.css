@@ -1,0 +1,203 @@
+.card-collection{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100%;
+    height: 100%;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+
+.example-layout{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width:60%;
+}
+
+.information-slides{
+    display:flex;
+    justify-content: space-around;
+    gap: 2rem;
+    height: 100%;
+    width: auto;
+}
+
+.puzzle-card{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-bottom:9rem solid transparent;
+    border-right:6rem solid transparent;
+    border-left:6rem solid transparent;
+    margin-bottom: 2.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    width: 8rem;
+    height: 8rem;
+    background-color: yellow;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 9rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle {
+    width: 11rem;
+    height: 6rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.puzzle-text {
+    font-size: 2rem;
+    padding: 0rem;
+    text-shadow: 0 0 3px #000000;
+}
+
+.number{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0 0 5px #000000
+}
+
+.input-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.background{
+    background-color: rgba(255,255,0,0.3);
+    width: 100%;
+    height: 100%;
+}
+
+input{
+    width: 30%;
+    height: 1.8rem;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    margin-top: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.example-image{
+    width: 100%;
+    height: auto;
+}
+
+
+.end-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding-top: 5rem;
+}
+
+.end-text{
+    font-size: 3rem;
+}
+
+.info-text{
+    font-size: 1rem;
+}
+
+
+.restart-button{
+    display: flex;
+    background: #1aac83;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    font-size: 1rem;
+    width: 9rem;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .restart-button:hover {
+    background: #0e8c5f;
+    cursor: pointer;
+  }
+
+  .questions{
+    font-size: 1rem;
+  }
+
+  .qna-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 1rem;
+  }
+
+  .timer{
+    font-size: 3rem;
+  }
+
+  .time-selector {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.time-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.time-buttons button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.time-buttons button.selected {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
