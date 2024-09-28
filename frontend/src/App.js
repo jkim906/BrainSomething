@@ -7,6 +7,7 @@ import Game1 from "./components/DinoJump";
 import Games from './pages/Games';
 import ReactionGame from './components/ReactionGame';
 import ChimpTest from "./components/ChimpTest";
+import Footer from "./components/Footer";
 
 import ColourPuzzle from "./components/ColourPuzzle";
 import ColourPuzzleInfo from "./components/ColourPuzzleInfo";
@@ -28,7 +29,9 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
+      <Footer />
     </div>
+    
   );
 }
 
