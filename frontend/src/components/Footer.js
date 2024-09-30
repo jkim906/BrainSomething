@@ -5,7 +5,7 @@ import {
   MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
-import '@fortawesome/fontawesome-free/css/all.min.css'; // Import the FontAwesome CSS
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 
 const Footer = () => {
