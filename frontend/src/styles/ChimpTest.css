@@ -8,7 +8,7 @@ body {
 }
 
 .tiles {
-
+    background-color: #f8f8f8;
     display: grid;
     grid-template-columns: repeat(10, 95px);
     gap: 8px;
