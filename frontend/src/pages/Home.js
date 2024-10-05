@@ -14,6 +14,17 @@ const Home = () => {
   return (
       <div className="home">
         <div>
+          {/* Header Section */}
+      <div className="header">
+        <h1>Welcome to BrainSomething!</h1>
+        <p>
+          Challenge your mind with fun and interactive games designed to improve
+          your cognitive skills. Test your memory, reaction speed, and
+          observational abilities across a variety of exciting games. Ready to
+          get smarter?
+        </p>
+      </div>
+
         <div className="cards-container">
           {/* Card for Game 1 */}
           <div className="card">
